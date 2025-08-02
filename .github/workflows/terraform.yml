@@ -1,4 +1,4 @@
-name: "Vprofile IAC"
+name: "UPC IAC"
 
 on:
   push:
@@ -20,8 +20,8 @@ env:
 
   # s3 bucket for terraform state
   BUCKET_TF_STATE: ${{ secrets.BUCKET_TF_STATE }}
-  AWS_REGION: ap-south-1
-  EKS_CLUSTER: vprofile-eks
+  AWS_REGION: ap-south-2
+  EKS_CLUSTER: upc-eks
 
 jobs:
   terraform:

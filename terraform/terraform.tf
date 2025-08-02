@@ -27,9 +27,9 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "terraformbuckt12"
+    bucket = "upc-storage-rainbow"
     key    = "terraform.tfstate"
-    region = "us-east-1"
+    region = "ap-south-2"
   }
 
   required_version = "~> 1.6.6"
